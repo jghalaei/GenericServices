@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>GenericServices.Services</PackageId>
+    <Version>1.0.42</Version>
+    <Authors>JGhalaei</Authors>
+    <Company>JGhalaei</Company>
+  </PropertyGroup>
+  <ItemGroup>
+
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+
+    <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="MongoDb.Driver" Version="2.17.0" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+  </ItemGroup>
+<ItemGroup>
+<ProjectReference Include="..\Core\GenericServices.Core.csproj" />
+</ItemGroup>
+</Project>
